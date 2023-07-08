@@ -1,3 +1,15 @@
 .paragrafos{
     color: blueviolet;
 }
+
+span{
+    display: none;
+}
+
+.sumiu{
+    background-color: aquamarine;
+    border:solid 1px black;
+    color: blueviolet;
+    display: inline-block;
+    font-size: 2em;
+}
