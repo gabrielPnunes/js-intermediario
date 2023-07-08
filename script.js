@@ -1,16 +1,13 @@
-document.head;
-console.log(document);
-console.log(document.head);
+function h1click(){
+console.log("executando a função");
+}
 
-let ps = document.getElementsByClassName("paragrafos");
-console.log(ps)
+function changeh1(t){
+let h1 = document.getElementsByTagName("h1")[0];
+h1.innerText = t.value;
+}
 
-let p1 = document.getElementById("p1");
-console.log(p1)
-
-let tp = document.getElementsByTagName("p")
-console.log(tp)
-
-
-
-
+function hide(){
+    let sumiu = getElementsById("sumiu")
+    sumiu.style.display = "none";
+}
