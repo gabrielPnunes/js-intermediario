@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viweport" content="widht=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./events.css">
+    <title>JS</title>
+
+</head>
+
+<body onload="loaded()">
+    <img src="../imagens/civic.jpg" alt="civic 2000">
+
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)">
+        passe por cima
+    </div>
+
+    <h1 onclick="h1click()">
+        click em mim
+    </h1>
+
+    <p onclick="this.style.color= 'purple' ";>
+        Clique para mudar de cor
+    </p>
+
+    <input type="text" oninput="changeh1(this)">
+
+    <h2 id="titulo1">>
+        Teste 1
+    </h2>
+
+
+    <script src="events.js"></script>
+</body>
+
+</html>

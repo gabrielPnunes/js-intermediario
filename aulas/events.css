@@ -1,0 +1,21 @@
+.paragrafos {
+    color: blueviolet;
+}
+
+span {
+    display: none;
+}
+
+img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+div {
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:block;
+	color:#ffffff;
+	padding:10px ;
+}
