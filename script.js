@@ -1,13 +1,17 @@
-function h1click(){
-console.log("executando a função");
+function f(e) {
+    console.log("teste")
+    console.log(e)
+    console.log(this)
 }
 
-function changeh1(t){
-let h1 = document.getElementsByTagName("h1")[0];
-h1.innerText = t.value;
+function f1(e){
+    console.log("teste f1")
+    console.log(e)  
+    console.log(this)
 }
 
-function hide(){
-    let sumiu = getElementsById("sumiu")
-    sumiu.style.display = "none";
+window.onload = function () {
+    let h1 = document.getElementsByTagName("h1")[0]
+    h1.addEventListener("click", f1);
 }
+
