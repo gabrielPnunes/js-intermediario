@@ -1,15 +1,16 @@
-.paragrafos{
-    color: blueviolet;
+.churras {
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #B0C4DE;
 }
 
-span{
-    display: none;
-}
-
-.sumiu{
-    background-color: aquamarine;
-    border:solid 1px black;
-    color: blueviolet;
-    display: inline-block;
-    font-size: 2em;
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 10px 10px 0px;
 }

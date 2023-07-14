@@ -5,13 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viweport" content="widht=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>this</title>
+    <title>Churrascômetro</title>
 
 </head>
 
 <body>
+    <div class="churras">
+        <h1> Churrascômetro</h1>
+        <input type="number" name="adultos" id="adultos" placeholder="Adultos">
+        <input type="number" name="crianças" id="criancas" placeholder="Crianças">
+        <input type="number" name="duracao" id="duracao" placeholder="Duração (h)">
+        <button onclick="calculo()">Calcular</button>
 
-    <h1 onclick="f(this)">title</h1>
+        <div id="resultado">
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
